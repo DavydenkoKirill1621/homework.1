@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+  }
+  
+  main {
+    padding: 170px 0;
+    background-color: #edf0f5;
+  }
+  
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 25px;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column-left {
+  }
+  
+  .column-right {
+  }
+  
+  .form {
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .form input {
+    display: block;
+  }
+  
+  .form button {
+    display: block;
+  }
+  
+  footer {
+    padding: 40px 0;
+  }
+  
+  @media (max-width: 375px) {
+    main {
+      padding: 40px 0;
+    }
+  
+    .columns {
+      display: block;
+    }
+  }
+  .green { background: #74e22b; 
+    color: #fff; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ }
+  .blue {background: #0949c0; 
+    color: #fff; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ }
